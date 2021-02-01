@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class=" ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My garena web</title>
+
+
+    <!-- https://google.github.io/material-design-icons/#icon-font-for-the-web -->
+    <!-- Using via Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- https://tailwindcss.com/docs/installation -->
+    <!-- Using Tailwind via CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+
+    <!-- https://v3.vuejs.org/guide/installation.html#release-notes -->
+    <!-- Vue CDN -->
+
+    <!--
+        iconmoster
+    -->
+    <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
+
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <style type="text/css">
+        #dropdownPat:hover #dropdownPat-content {
+            display: block;
+
+        }
+
+        #dropdownGame:hover #dropdownGame-content {
+            display: block;
+
+        }
+    </style>
+
+
+
+
+
+</head>
+
+<body class="   ">
+    <!-- flex flex-col h-full  -->
+    <!-- overflow-hidden -->
+
+    <!--header-->
+    <!--navbar-->
+
+    <nav class=" bg-black border-b-2 border-red-600 max-h-16 w-full h-full relative">
+        <div class="flex    ">
+
+            <div class=" py-3  ">
+                <a href="">
+                    <img class=" ml-60  " src="https://www.garena.co.th/static/images/navbar/garena_logo.png"
+                        alt="garena_logo">
+                </a>
+
+            </div>
+
+
+            <div id="dropdownPat" class="py-4 ml-64 mx-1">
+                <a href="" class=" flex text-gray-400 hover:text-gray-200">
+                    แพลตฟอร์ม
+                    <i class="material-icons ">
+                        keyboard_arrow_down
+                    </i>
+                </a>
+                <div id="dropdownPat-content"
+                    class="text-gray-400 bg-black bg-opacity-90 py-2 pl-4 pr-8 mt-4 absolute z-10 hidden ">
+
+                    <a href="#" class="block p-2 flex   ">
+                        <i class="material-icons mr-1">
+                            phone_iphone
+                        </i>แอปฯ Garena
+                    </a>
+
+                    <a href="#" class="block p-2 flex  ">
+                        <i class="material-icons mr-1 ">
+                            monitor
+                        </i>Garena บน PC
+                    </a>
+                </div>
+            </div>
+
+
+            <div id="dropdownGame" class="py-4 mx-1 ">
+                <a href="" class="flex text-gray-400 hover:text-gray-200">
+                    เกม
+                    <i class="material-icons ">
+                        keyboard_arrow_down
+                    </i>
+                </a>
+
+
+                <div id="dropdownGame-content"
+                    class="text-gray-400 bg-black bg-opacity-90 py-2 pl-4 pr-8 mt-4 absolute z-10 hidden">
+                    <ul class="flex  ">
+                        <div class=" border-r border-gray-400 space-y-6 pr-5 pb-2 ">
+
+                            <li> <a href="#" class="block p-2 flex  ">
+                                    <i class="material-icons mr-1 ">
+                                        monitor
+                                    </i>Garena บน PC
+                                </a>
+                            </li>
+
+                            <li class="ml-2"><a href="">Ring of Elysium</a></li>
+                            <li class="ml-2"><a href="">PUBG LITE</a></li>
+                            <li class="ml-2"><a href="">Heros of Newerth</a></li>
+                            <li class="ml-2"><a href="">League of Legends</a></li>
+                            <li class="ml-2"><a href="">Blade & Soul</a></li>
+                            <li class="ml-2"><a href="">FIFA Online 4</a></li>
+                        </div>
+
+                        <div class="  block space-y-6  pl-5  ">
+                            <li> <a href="#" class="block p-2 flex   ">
+                                    <i class="material-icons mr-1">
+                                        phone_iphone
+                                    </i>แอปฯ Garena
+                                </a></li>
+
+                            <li class="ml-2"><a href="">ROV</a></li>
+                            <li class="ml-2"><a href="">Call of Duty: Moblie</a></li>
+                            <li class="ml-2"><a href="">Speed Drifters</a></li>
+                            <li class="ml-2"><a href="">Free Fire</a></li>
+                            <li class="ml-2"><a href="">Contra</a></li>
+                        </div>
+
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+            <div class="py-4 ">
+                <a href="" class=" text-gray-400 hover:text-gray-200 ">
+                    บริการลูกค้า
+                </a>
+            </div>
+
+            <div>
+                <div class="flex border-r-2 border-gray-800 p-4 ml-64   ">
+                    <a href=" " class="flex text-gray-400 hover:text-gray-200">
+                        สมัครสมาชิก
+                        <i class="material-icons mx-1 ">
+                            person_add
+                        </i>
+                    </a>
+                </div>
+            </div>
+            <div class="  p-4">
+                <a href="" class="flex text-gray-400 hover:text-gray-200">
+                    ล็อกอิน
+                    <i class="material-icons mx-1">
+                        lock_open
+                    </i>
+                </a>
+            </div>
+
+
+
+        </div>
+    </nav>
+
+    <!--navbar End-->
+    <!--header End-->
+
+    <!--body-->
+
+    <div class="relative bg-top bg-center background-repeat-none bg-no-repeat     ">
+        <!-- style="background-image: url('images/Garenagame_Desktop(1920x864).jpg');height: calc(100vh - 120px) " -->
+
+
+        <div class="">
+
+            <a href="" class="text-gray-500 w-20 absolute left-16 flex h-full ">
+
+
+                <!-- <i class="material-icons text-9xl border-red-600 border z-20 block float-right -pr-10 ">
+                        keyboard_arrow_left
+                    </i> -->
+                <button class="text-grey-800 text-7xl hover:text-white focus:outline-none">
+                    ❮
+                </button>
+
+
+
+            </a>
+
+            <a href="" class="w-20 absolute right-16  flex  h-full   ">
+
+                <!-- <i class="material-icons text-9xl  border-red-600 border z-20 block float-left ">
+                keyboard_arrow_right
+            </i> -->
+                <button class="text-gray-500 text-7xl hover:text-white focus:outline-none">
+                    ❯
+                </button>
+            </a>
+        </div>
+
+
+        <!-- <div class=" absolute inset-y-96   right-96  my-96 mx-96 py-36 ">
+            <ol class="text-red-600 flex space-x-1 w-full h-full    ">
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+                <li><i class="material-icons"> fiber_manual_record</i></li>
+            </ol>
+        </div> -->
+
+        <div class="">
+            <img class="w-full " src="images/Garenagame_Desktop(1920x864).jpg" alt="garena_logo"
+                style="height: calc(100vh - 118px)">
+        </div>
+
+
+
+    </div>
+    <!--body End-->
+
+    <!--footer -->
+
+
+    <footer
+        class=" flex bg-black text-center border-t border-gray-800 p-0.5 pl-60 text-gray-300 text-sm space-x-20 mt-0 h-full w-full relative ">
+
+
+        <div class="flex">
+
+            <div class=" mr-10 p-4  ">
+                <p> Copyright © Garena Online. Trademarks belong to their respective owners. All rights
+                    reserved.</p>
+            </div>
+            <div
+                class="hover:text-white hover:bg-gray-700 bg-gray-800 h-full bg-gray-700 py-4 px-8  my-auto border-r border-black ">
+
+                <a href="">
+                    Terms of Service
+                </a>
+            </div>
+            <div class="hover:text-white hover:bg-gray-700 bg-gray-800 h-full py-4 px-8  ">
+                <a href="">Privacy Policy</a>
+            </div>
+
+            <div class="bg-black p-4  ">
+                <select name="" id="" class="bg-black border-gray-800 border  ">
+                    <option value="http://www.garena.in.th/">Thailand (ราชอาณาจักรไทย)</option>
+                    <option value="http://www.garena.tw/">Taiwan (台灣)</option>
+                    <option value="http://www.garena.sg/">Singapore</option>
+                    <option value="http://www.garena.ph/">Philippines (Pilipinas)</option>
+                    <option value="http://www.garena.co.id/">Indonesia</option>
+                    <option value="http://www.garena.vn/">Vietnam (Việt Nam)</option>
+                    <option value="http://www.garena.my/">Malaysia</option>
+                    <option value="http://corporate.garena.com/">Garena Group</option>
+                </select>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--footer End-->
+</body>
+
+</html>
